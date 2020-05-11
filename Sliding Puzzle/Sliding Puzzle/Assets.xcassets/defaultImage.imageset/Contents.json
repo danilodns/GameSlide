@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "erik-mclean-0TNLNPP1Vkc-unsplash.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "erik-mclean-0TNLNPP1Vkc-unsplash-1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "erik-mclean-0TNLNPP1Vkc-unsplash-2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

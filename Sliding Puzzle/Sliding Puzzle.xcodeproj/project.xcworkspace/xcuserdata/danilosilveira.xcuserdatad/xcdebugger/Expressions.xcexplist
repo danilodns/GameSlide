@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GameViewController.rotate():GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "        UIApplication.shared.windows[0].frame.size&#10;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameViewController.viewWillTransition(to:with:):GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UIApplication.shared.statusBarFrame.size.height ">
+            </PersistentString>
+            <PersistentString
+               value = "self.navigationController?.navigationBar.frame.height">
+            </PersistentString>
+            <PersistentString
+               value = "gameView.frame">
+            </PersistentString>
+            <PersistentString
+               value = "totalHeightConst.constant">
+            </PersistentString>
+            <PersistentString
+               value = "totalWidthConst.constant">
+            </PersistentString>
+            <PersistentString
+               value = "gameView.frame.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameAPI.resizingImg():GameAPI.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UIScreen.main.bounds.width&#9;">
+            </PersistentString>
+            <PersistentString
+               value = "UIScreen.main.bounds.height">
+            </PersistentString>
+            <PersistentString
+               value = "(UIScreen.main.bounds.width - 300) / size.width">
+            </PersistentString>
+            <PersistentString
+               value = "UIScreen.main.bounds">
+            </PersistentString>
+            <PersistentString
+               value = "(UIScreen.main.bounds.height - 30) / size.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameAPI.getPointFromPosition(position:):GameAPI.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in GameAPI.splitImage(_:):GameAPI.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "listOfTitle.filter({$0.finalPosition == 14})">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameViewController.loadUI():GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UIDevice.current.orientation.isValidInterfaceOrientation">
+            </PersistentString>
+            <PersistentString
+               value = "view.subviews[1].constraints">
+            </PersistentString>
+            <PersistentString
+               value = "UIDevice.current.orientation">
+            </PersistentString>
+            <PersistentString
+               value = "view.subviews[1].constraints[1].firstItem">
+            </PersistentString>
+            <PersistentString
+               value = "5 % 4">
+            </PersistentString>
+            <PersistentString
+               value = "(5 % 4 - 1)">
+            </PersistentString>
+            <PersistentString
+               value = "UIApplication.shared.statusBarOrientation">
+            </PersistentString>
+            <PersistentString
+               value = "view.subviews[1].constraints[0].constant">
+            </PersistentString>
+            <PersistentString
+               value = "view.subviews[1].frame">
+            </PersistentString>
+            <PersistentString
+               value = "view.subviews[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in GameAPI.randomizeTitle():GameAPI.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GameViewController.viewDidLoad():GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "gameView.frame.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in GameAPI.randomTitle():GameAPI.swift">
+      </ContextState>
+      <ContextState
+         contextName = "main:AppDelegate.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GameAPI.checkIfCanMove(titlePosition:):GameAPI.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GameAPI.getImageHeight():GameAPI.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "fullImage.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameAPI.randomTitle():GameAPI.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "listOfTitle.sorted { (arg0, arg1) -&gt; Bool in&#10;            arg0.key &lt; arg1.key&#10;        }">
+            </PersistentString>
+            <PersistentString
+               value = "listOfTitle[13]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in GameViewController.loadData():GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "titleGame.value">
+            </PersistentString>
+            <PersistentString
+               value = "apiManager.getPointFromPosition(position: 15)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameAPI.startGame(imageViewSize:):GameAPI.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UIApplication.shared.windows[0].frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in GameAPI.splitImage():GameAPI.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "uiImageview.frame">
+            </PersistentString>
+            <PersistentString
+               value = "UIScreen.main.bounds.height">
+            </PersistentString>
+            <PersistentString
+               value = "titleGames[2].frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameAPI.resizingImg(_:size:):GameAPI.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "fullImage.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameAPI.getPointFromPosition(position:height:width:columns:):GameAPI.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "0 % 4">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameViewController.loadData(size:):GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "gameView.subviews[6].frame">
+            </PersistentString>
+            <PersistentString
+               value = "UIApplication.shared.windows[0].frame">
+            </PersistentString>
+            <PersistentString
+               value = "gameView.frame.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in GameViewController.viewWillTransition(to:with:):GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "titleGame.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameAPI.isSolvable():GameAPI.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GameViewController.loadData():GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "fullImage.size">
+            </PersistentString>
+            <PersistentString
+               value = "UIApplication.shared.windows[0].frame">
+            </PersistentString>
+            <PersistentString
+               value = "gameView.subviews">
+            </PersistentString>
+            <PersistentString
+               value = "apiManager.getImageWidth()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameAPI.calculateInversion():GameAPI.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "listOfTitle.sorted { (arg0, arg1) -&gt; Bool in&#10;            arg0.key &lt; arg1.key&#10;        }">
+            </PersistentString>
+            <PersistentString
+               value = "listOfTitle[14]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameAPI.splitImage():GameAPI.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "titleGames[3].frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameAPI.moveTitle(point:):GameAPI.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GameAPI.splitImage(_:):GameAPI.swift">
+      </ContextState>
+      <ContextState
+         contextName = "GameViewController.touchesEnded(_:with:):GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "touches">
+            </PersistentString>
+            <PersistentString
+               value = "titleView.tag">
+            </PersistentString>
+            <PersistentString
+               value = "titleView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameAPI.resizingImg(_:):GameAPI.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UIDevice.current.orientation.isValidInterfaceOrientation">
+            </PersistentString>
+            <PersistentString
+               value = "UIScreen.main.bounds.height">
+            </PersistentString>
+            <PersistentString
+               value = "UIDevice.current.orientation.isPortrait">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

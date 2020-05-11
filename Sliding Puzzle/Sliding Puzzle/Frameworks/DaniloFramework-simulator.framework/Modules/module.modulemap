@@ -1,0 +1,6 @@
+framework module DaniloFramework {
+  umbrella header "DaniloFramework.h"
+
+  export *
+  module * { export * }
+}
