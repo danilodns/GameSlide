@@ -59,11 +59,34 @@ class CameraViewController: UIViewController, UINavigationControllerDelegate, UI
         imagePicker.dismiss(animated: true, completion: nil)
         
         if let image = info[.editedImage] as? UIImage {
-            imageView.contentMode = .scaleAspectFit
-            imageView.image = image
+            imageView.contentMode = .scaleToFill
+            imageView.image = resizingImg(image)
         }
     }
     
+    
+    private func resizingImg(_ image: UIImage) -> UIImage{
+        var currentImage = image
+        let originalSize = image.size
+        let wRatio: CGFloat = imageView.frame.width / originalSize.width
+        let hRatio: CGFloat  = imageView.frame.height / originalSize.height
+        
+        var newSize: CGSize
+        if(wRatio > hRatio) {
+            newSize = CGSize(width: originalSize.height * hRatio, height: originalSize.height * hRatio)
+        } else {
+            newSize = CGSize(width: originalSize.width * wRatio,  height: originalSize.width * wRatio)
+        }
+        let rect = CGRect(x: 0, y: 0, width: newSize.width, height: newSize.height)
+        
+        UIGraphicsBeginImageContextWithOptions(newSize, false, 1.0)
+        currentImage.draw(in: rect)
+        if let newImage = UIGraphicsGetImageFromCurrentImageContext() {
+            UIGraphicsEndImageContext()
+            currentImage = newImage
+        }
+        return currentImage
+    }
     // MARK: - Navigation
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
